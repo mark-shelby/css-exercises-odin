@@ -6,16 +6,23 @@ body {
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  font-size: 29px;
 }
 
-.small-para {
+.para.small-para{
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+/* .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
 .para {
   font-size: 22px;
-}
+  /* font-weight: 900; */
 
 .confirm {
   background: green;
@@ -23,13 +30,19 @@ body {
   font-weight: bold;
 } 
 
+#confirm-button{
+  background-color: green;
+  color: white;
+}
+
+
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
